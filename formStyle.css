@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke;
+   width: 100vw;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text{
+    margin: 2rem 0 0 2rem;
+    
+}
+
+.form{
+    color: rgb(121, 117, 117);
+    margin: 0 0 0 2rem;
+}
+.f-line{
+    width: 30%;
+    margin: 0 0 0 2rem;
+    border: 2px solid rgb(25, 25, 83); 
+}
+.form-div{
+    color: rgb(121, 117, 117);
+    margin: 2rem 0 0 2rem;
+    width: 70%;
+    font-size: 20px;
+
+}
+input{
+    background-color: transparent;
+    border: 3px solid rgb(158, 149, 149);
+    width: 25rem;
+    height: 3rem;
+    font-size: 20px;
+
+}
+
+select{
+    background-color: transparent;
+    border: 3px solid rgb(158, 149, 149);
+    width: 25rem;
+    height: 3rem;
+    font-size: 22px; 
+}
+
+textarea{
+    background-color: transparent;
+    width: 25rem;
+}
+
+.f-linetwo{
+    width: 38%;
+   
+    border: 2px solid rgb(25, 25, 83); 
+}
+button{
+    width: 9rem;
+    height: 4rem;
+    font-size: 27px;
+    color: white;
+    background-color: rgb(79, 5, 79);
+    border-radius: 12px;
+}
+
+
+@media(max-width: 600px){
+
+    input{
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 18px;
+
+}
+
+
+select{
+    background-color: transparent;
+    border: 3px solid rgb(158, 149, 149);
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 18px; 
+}
+
+textarea{
+    background-color: transparent;
+    width: 20rem;
+}
+
+.f-line{
+    width: 70%;
+    }
+
+
+button{
+    width: 8rem;
+    height: 2.7rem;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+}
